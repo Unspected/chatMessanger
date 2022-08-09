@@ -35,7 +35,7 @@ class ChatViewController: MessagesViewController {
         messages.append(Message(sender: selfSender,
                                 messageId: "1",
                                 sentDate: Date(),
-                                kind: .text("Hello World message")))
+                                kind: .text("Joe Smith")))
         
         messages.append(Message(sender: selfSender,
                                 messageId: "1",
